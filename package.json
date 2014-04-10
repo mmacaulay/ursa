@@ -33,7 +33,7 @@
     },
 
     "scripts": {
-        "install": "node-gyp configure build && node install.js",
+        "install": "nw-gyp configure --target=0.8.5 build && node install.js",
         "test": "node test/test.js"
     }
 }
